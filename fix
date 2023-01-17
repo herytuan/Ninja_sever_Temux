@@ -1,1 +1,37 @@
-.github/ quy trình công việc
+# Quy trình công việc này sử dụng các hành động không được GitHub chứng nhận.
+# Chúng được cung cấp bởi bên thứ ba và được quản lý bởi
+# điều khoản dịch vụ, chính sách quyền riêng tư và hỗ trợ riêng biệt
+# tài liệu.
+#
+# NowSecure: Chuyên gia bảo mật di động <https://www.nowsecure.com/>.
+#
+# Để sử dụng quy trình làm việc này, bạn phải là khách hàng NowSecure hiện tại đã bật GitHub Advanced Security (GHAS) cho
+# kho.
+#
+# Nếu bạn *không phải* là khách hàng hiện tại, hãy nhấp vào đây để liên hệ với chúng tôi để biết chi tiết về giấy phép và giá cả:
+# <https://info.nowsecure.com/github-request>.
+#
+# Hướng dẫn:
+#
+# 1. Trong phần cài đặt cho kho lưu trữ của bạn, hãy nhấp vào "Bí mật" rồi nhấp vào "Bí mật kho lưu trữ mới". Đặt tên bí mật là "NS_TOKEN" và
+# dán mã thông báo Nền tảng của bạn. Nếu bạn không có mã thông báo Nền tảng hoặc muốn tạo mã mới cho GitHub, hãy truy cập
+# Nền tảng NowSecure và chuyển đến "Hồ sơ & Tùy chọn", sau đó tạo mã thông báo có nhãn "GitHub".
+#
+# 2. Thực hiện theo quy trình làm việc được chú thích bên dưới và thực hiện bất kỳ sửa đổi cần thiết nào, sau đó lưu quy trình làm việc vào kho lưu trữ của bạn
+# và xem lại tab "Bảo mật" sau khi hành động đã chạy.
+
+tên: "NowSecure"
+
+trên:
+  xô:
+    nhánh: [ "chính" ]
+  yêu cầu kéo:
+    nhánh: [ "chính" ]
+
+công việc:
+  bây giờ an toàn:
+    Tên: NowSecure
+    chạy trên: Ubuntu-mới nhất
+    các bước:
+      - tên: Mã thanh toán
+        sử dụng: hành động/thanh toán@v3
